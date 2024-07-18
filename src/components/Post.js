@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const Post = ({ post, onDelete }) => {
-    const [showDetail, setShowDetail] = useState(false);
+    const [showDetail] = useState(false);
 
     const handleDelete = async () => {
         try {
